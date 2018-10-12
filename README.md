@@ -1,3 +1,9 @@
+#>Docker
+
+How to install Docker?
+
+
+
 # DockerImageDemo
 Create docker files with centos base image
 Install java, git, azure-cli, python and terraform on that image
@@ -24,4 +30,7 @@ Environment="HTTPS_PROXY=http://proxy-ip:port/"
 *Then restart docker with below commands.
 
 systemctl daemon-reload
-sudo service docker restart
+sudo service docker restarti
+
+
+docker pull sagar6210/base-java-git-azurecli-terraform-python
