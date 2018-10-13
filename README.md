@@ -19,41 +19,58 @@ Environment="HTTPS_PROXY=http://proxy-ip:port/"
 ## Basic Docker commands
 > Get Docker version
 `docker version`
+
 > Get Docker information with number of images, Running container, CPU, memory, etc.
 `docker info`
+
 > List of Docker images
 `docker images`
+
 > To list all running and stopped containers
 `docker ps -a`
+
 > To list all running containers
 `docker ps -a -f status=running`
+
 > To list all running and stopped containers, showing only their container id
 `docker ps -aq`
+
 > To delete all containers
 `docker rm $(docker ps -a -q)`
+
 > To delete all images
 `docker rmi $(docker images -q)`
+
 > Show docker disk usage 
 `docker system df -kh`
+
 > Remove unused container, images, network
 `docker system prune`
+
 > To remove docker volume
 `docker system prune -a --volumes`
+
 > To build docker image
 `docker build -t imagename:tag .`
+
 > To run docker image
 `docker run -t imagename:tag`
+
 > To run docker image on port with deamon 
 `docker run -d -p 4000:80 imagename:tag`
+
 > To tag docker image
 `docker tag imagename username/identified-image-name:tag`
+
 > To stop docker container 
 `docker container stop container_id`
+
 > to push docker image to container hub
 * first tag docker image and then push to docker hub
 `docker login`
 `docker tag image username/repository:tag`
 `docker push username/repository:tag`
+
 > To pull docker image from docker registry 
 `docker pull username/dockerimage:tag`
 
