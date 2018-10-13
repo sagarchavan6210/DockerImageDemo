@@ -1,4 +1,6 @@
-# Docker
+## Docker image with java git azurecli terrafrom and python installed
+
+`docker pull sagar6210/base-java-git-azurecli-terraform-python`
 
 > How to install Docker?
 
@@ -85,7 +87,3 @@ Run below command from where you kept dokcer file.
 
 Here, <NO_PROXY> is ip address of your machine and <HTTP_PROXY_IP> is ip address of your proxy server.
 
-
-## Docker image with java git azurecli terrafrom and python installed 
-
-`docker pull sagar6210/base-java-git-azurecli-terraform-python`
