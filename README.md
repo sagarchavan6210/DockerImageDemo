@@ -4,7 +4,7 @@
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
 
-##Dokcer proxy configuration
+## Dokcer proxy configuration
 
 *Create http-proxy.conf and put the entry of http_proxy and no_proxy.
 /etc/systemd/system/docker.service.d/http-proxy.conf
