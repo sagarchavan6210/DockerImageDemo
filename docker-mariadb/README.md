@@ -1,5 +1,5 @@
 # docker mariadb
-
+#### Following command are used if you are using GITLAB
 #### To use this service add below line in `.gitlab-ci.yml`
 ---
 ```
