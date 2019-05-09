@@ -1,3 +1,8 @@
+##### An image is a lightweight, stand-alone, executable package that includes everything needed to run a piece of software, including the code, a runtime, libraries, environment variables, and config files.
+##### A container is a runtime instance of an image
+##### A docker-compose.yml file is a YAML file that defines how Docker containers should behave in production.
+##### Multi-container, multi-machine applications are made possible by joining multiple machines into a “Dockerized” cluster called a swarm.
+
 ## Docker image with java git azurecli terrafrom and python installed
 
 `docker pull sagar6210/base-java-git-azurecli-terraform-python`
